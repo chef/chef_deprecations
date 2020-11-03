@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+puts "Foodcritic has been deprecated. Use cookstyle instead, which provides over 200 Chef Infra cops with autocorrection!"
+exit 1
