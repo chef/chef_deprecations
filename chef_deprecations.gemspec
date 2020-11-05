@@ -7,15 +7,16 @@ Gem::Specification.new do |spec|
   spec.email         = ["tsmith@chef.io "]
 
   spec.summary       = %q{A gem to provide a simple way to deprecate gems in chef-workstation.}
-  spec.description   = %q{A gem to provide a simple way to deprecate gems in chef-workstation.}
+  spec.description   = spec.summary
   spec.homepage      = "https://github.com/chef/chef_deprecations"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+  spec.license       = "Apache-2.0"
+  spec.required_ruby_version = ">= 2.5"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/chef/chef_deprecations"
   spec.metadata["changelog_uri"] = "https://github.com/chef/chef_deprecations/CHANGELOG.md"
 
-  spec.files         = Dir.glob("bin/**")
+  spec.files         = w{LICENSE} + Dir.glob("bin/**")
   spec.bindir        = "bin"
   spec.executables   = Dir.children("bin/")
 end
