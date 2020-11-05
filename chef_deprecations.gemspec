@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = "https://github.com/chef/chef_deprecations"
   spec.metadata["changelog_uri"] = "https://github.com/chef/chef_deprecations/CHANGELOG.md"
 
-  spec.files         = w{LICENSE} + Dir.glob("bin/**")
+  spec.files         = %w{LICENSE} + Dir.glob("bin/**")
   spec.bindir        = "bin"
   spec.executables   = Dir.children("bin/")
 end
