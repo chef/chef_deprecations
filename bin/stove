@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
-puts "Stove has been deprecated. Use `knife cookbook share` instead!"
+puts "Stove has been deprecated. Use `knife supermarket share` instead!"
 exit 1
