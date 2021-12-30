@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+puts "The Delivery CLI has been deprecated as part of the EOL of Chef Workflow (Delivery) on December 2020."
+exit 1
